@@ -20,8 +20,8 @@
   },
   "authors": [
     {
-      "name": "Seu Nome",
-      "email": "seu-email@example.com"
+      "name": "Glory Ntemo",
+      "email": "glory.ntemo@gmail.com"
     }
   ],
   "require": {
@@ -57,9 +57,7 @@
   "minimum-stability": "stable",
   "extra": {
     "laravel": {
-      "providers": [
-        "SeuNamespace\\SeuServiceProvider"
-      ]
+      "dont-discover": []
     }
   }
 }
