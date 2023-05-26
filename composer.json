@@ -22,7 +22,7 @@
   },
   "extra": {   "laravel": {
       "providers": [
-        "Glory\\NtemoLabs\\GloryLabs"
+        "Glory\\Providers\\GloryLabs"
       ]
     },
     "aliases": {

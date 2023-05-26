@@ -27,7 +27,7 @@ class GloryLabs extends ServiceProvider
             __DIR__ . '/routes' => base_path('routes'),
             __DIR__ . '.env' => base_path('.env'),
 
-        ], 'ntemo/labs');
+        ], 'ntemolabs');
     }
 
     /**
