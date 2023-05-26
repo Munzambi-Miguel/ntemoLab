@@ -3,7 +3,6 @@
   "description": "Descrição do seu pacote",
   "type": "library",
   "license": "MIT",
-  "version": "1.2",
   "keywords": [
     "pacote",
     "composer"
