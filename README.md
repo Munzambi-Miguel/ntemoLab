@@ -8,7 +8,7 @@ composer require kinsari/component
    adding to config/app
   'providers' => [
         //optional configuration
-        Kinsari\Providers\KINCompoServiceProvider::class 
+        Glory\Providers\GloryLabs::class 
 
   ]
 
