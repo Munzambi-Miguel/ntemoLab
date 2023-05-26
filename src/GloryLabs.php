@@ -1,10 +1,8 @@
 <?php
 
-namespace App\Providers;
-
+namespace Glory\NtemoLabs;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Contracts\Routing\ResponseFactory;
 
 class GloryLabs extends ServiceProvider
 {

@@ -7,6 +7,7 @@
     <list default="true" id="c2a9de79-c9e1-4a46-aa61-13106aa5fa85" name="Changes" comment="Update composer.json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Providers/GloryLabs.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/GloryLabs.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
