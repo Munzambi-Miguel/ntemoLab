@@ -2,7 +2,6 @@
   "name": "ntemo/labs",
   "description": "Library official Munzambi Miguel initial labs to workspace",
   "type": "library",
-  "ntemo/labs": "1.0.0",
   "license": "MIT",
   "keywords": [
     "composer",
@@ -25,7 +24,7 @@
     }
   ],
   "require": {
-    "php": "^8.1|^8.1",
+    "php": "^8.1",
     "adldap2/adldap2": "^10.4",
     "adldap2/adldap2-laravel": "^6.1",
     "barryvdh/laravel-dompdf": "^2.0",
@@ -54,10 +53,13 @@
     "phpunit/phpunit": "^9.3.3",
     "spatie/laravel-ignition": "^1.0"
   },
-  "minimum-stability": "dev",
   "config": {
+    "platform": {
+      "php": "8.1"
+    },
     "allow-plugins": {
       "symfony/thanks": true
     }
-  }
+  },
+  "minimum-stability": "dev"
 }
