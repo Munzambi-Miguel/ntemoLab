@@ -54,6 +54,20 @@
     "nunomaduro/collision": "^6.1",
     "spatie/laravel-ignition": "^1.0"
   },
-  "minimum-stability": "dev",
+  "extra": {
+    "laravel": {
+      "dont-discover": []
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "allow-plugins": {
+      "pestphp/pest-plugin": true,
+      "php-http/discovery": true
+    }
+  },
+  "minimum-stability": "stable",
   "prefer-stable": true
 }
