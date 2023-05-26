@@ -18,11 +18,12 @@
   "require": {
     "php": "^8.1",
     "laravel/framework": "^7.0|^8.0|^9.0|^10.0",
-    "guzzlehttp/guzzle": "^7.5"
+    "guzzlehttp/guzzle": "^7.5",
+    "ntemo/labs": "0.0.3"
   },
   "extra": {   "laravel": {
       "providers": [
-        "Glory\\Providers\\GloryLabs"
+        "App\\Providers\\GloryLabs"
       ]
     },
     "aliases": {

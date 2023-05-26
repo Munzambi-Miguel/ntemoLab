@@ -1,8 +1,6 @@
 <?php
 
-/// "Kinsari\\Component\\GloryLabs"
-/// "Glory\\Providers\\GloryLabs"
-namespace Glory\Providers;
+namespace App\Providers;
 
 
 use Illuminate\Support\ServiceProvider;
