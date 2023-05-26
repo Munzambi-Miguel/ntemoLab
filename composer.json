@@ -2,6 +2,7 @@
   "name": "ntemo/labs",
   "description": "Library official Munzambi Miguel initial labs to workspace",
   "type": "library",
+  "ntemo/labs": "1.0.0",
   "license": "MIT",
   "keywords": [
     "composer",
