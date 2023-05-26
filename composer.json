@@ -54,10 +54,6 @@
     "nunomaduro/collision": "^6.1",
     "spatie/laravel-ignition": "^1.0"
   },
-  "minimum-stability": "stable",
-  "extra": {
-    "laravel": {
-      "dont-discover": []
-    }
-  }
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
