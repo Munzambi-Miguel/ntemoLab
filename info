@@ -1,5 +1,5 @@
 {
-  "name": "inicial/views",
+  "name": "kinsari/component",
   "description": "Library oficial kinsari comuns",
   "type": "library",
   "license": "MIT",
@@ -7,31 +7,25 @@
     "composer",
     "autoload"
   ],
+  "autoload": {
+    "psr-0": {
+      "App\\": "../../app/",
+      "Resources\\": "../../resources/"
+    }
+  },
   "authors": [
     {
       "name": "munzambi",
       "email": "munzambi.miguel@kinsari.com"
     }
   ],
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Kinsari\\Providers\\KINCompoServiceProvider"
-      ]
-    },
-    "aliases": {
-      "Bar": "Foo\\Bar\\Facade"
-    }
-  },
-  "autoload": {
-    "psr-4": {
-      "Kinsari\\Providers\\": "src/"
-    }
-  },
   "require": {
     "php": "^7.3|^8.0",
-    "laravel/framework": "^8.0 | ^7.0 | ^6.0 ",
-    "guzzlehttp/guzzle": "^6.0 | ^7.0"
+    "livewire/livewire": "^2.5",
+    "realrashid/sweet-alert": "^4.0"
+  },
+  "require-dev": {
+    "symfony/thanks": "^1.0"
   },
   "minimum-stability": "dev",
   "config": {
